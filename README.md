@@ -1,10 +1,10 @@
-Project Overview
+##📌 Project Overview
 
 This project is an AI-powered script writing system designed to go beyond simple prompt-based generation.
 
-Instead of directly producing text, the system first analyzes the topic, decides the right approach, and then generates content in a controlled, structured way.
+Instead of directly producing text, the system first analyzes the topic, decides the right approach, and then generates content in a controlled and structured way.
 
-The goal is to demonstrate AI system design, not just text generation.
+The primary goal of this project is to demonstrate AI system design, not just text generation.
 
 🚀 What This Project Does
 
@@ -20,11 +20,11 @@ or up-to-date online information
 
 Creates a content plan before writing
 
-Writes each section independently to avoid drift
+Writes each section independently to avoid topic drift
 
 Merges everything into a coherent final script
 
-This makes the output:
+This results in output that is:
 
 consistent
 
@@ -36,11 +36,11 @@ scalable to different formats
 
 Most AI content tools rely on a single prompt.
 
-This system uses:
+This system is built around:
 
 decision-making before generation
 
-separation of responsibilities
+clear separation of responsibilities
 
 explicit structure and rules
 
@@ -63,7 +63,6 @@ LangChain – model abstraction and tooling
 Pydantic – structured schemas for reliability
 
 Search APIs – optional real-time research integration
-
 
 🎯 Purpose of This Project
 
