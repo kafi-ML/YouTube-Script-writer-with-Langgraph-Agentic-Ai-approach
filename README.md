@@ -1,8 +1,9 @@
-##📌 Project Overview
+🤖 AI Script Writing System
+📌 Project Overview
 
 This project is an AI-powered script writing system designed to go beyond simple prompt-based generation.
 
-Instead of directly producing text, the system first analyzes the topic, decides the right approach, and then generates content in a controlled and structured way.
+Instead of directly producing text, the system first analyzes the topic, decides the correct generation approach, and then generates content in a controlled, structured way.
 
 The primary goal of this project is to demonstrate AI system design, not just text generation.
 
@@ -10,27 +11,21 @@ The primary goal of this project is to demonstrate AI system design, not just te
 
 Accepts a topic as input
 
+Analyzes topic requirements before writing
+
 Decides whether the topic needs:
 
-no research (evergreen concepts)
+No research (evergreen concepts)
 
-partial research
+Partial research
 
-or up-to-date online information
+Up-to-date online information
 
-Creates a content plan before writing
+Creates a structured content plan first
 
-Writes each section independently to avoid topic drift
+Writes each section independently
 
-Merges everything into a coherent final script
-
-This results in output that is:
-
-consistent
-
-platform-aware
-
-scalable to different formats
+Merges all sections into a coherent final script
 
 🧠 Why This Is Different
 
@@ -38,40 +33,81 @@ Most AI content tools rely on a single prompt.
 
 This system is built around:
 
-decision-making before generation
+Decision-making before generation
 
-clear separation of responsibilities
+Explicit planning phase
 
-explicit structure and rules
+Separation of responsibilities
 
-As a result:
+Structured generation rules
 
-the AI doesn’t hallucinate randomly
+✅ Benefits
 
-content quality is predictable
+Reduced hallucination risk
 
-the system can be extended to other formats (news scripts, explainers, tutorials)
+Predictable content quality
+
+Easier debugging and extension
+
+Adaptable to multiple content formats
+
+🧱 System Architecture
+Step 1 — Topic Analysis
+
+Determines topic type and complexity.
+
+Step 2 — Research Decision Layer
+
+Classifies research requirement:
+
+Evergreen topic → No research
+
+Semi-current topic → Partial research
+
+Time-sensitive topic → Live search required
+
+Step 3 — Content Planning
+
+Creates a structured outline before writing begins.
+
+Step 4 — Section-wise Generation
+
+Each section is generated independently to prevent topic drift.
+
+Step 5 — Assembly Layer
+
+Sections are merged into a coherent final script.
 
 🧰 Tech Stack
 
-Python – core language
+Python — Core language
 
-LangGraph – multi-step AI workflow orchestration
+LangGraph — Multi-step workflow orchestration
 
-LangChain – model abstraction and tooling
+LangChain — Model abstraction and tooling
 
-Pydantic – structured schemas for reliability
+Pydantic — Structured schemas and validation
 
-Search APIs – optional real-time research integration
+Search APIs — Optional real-time research integration
 
 🎯 Purpose of This Project
 
-This project was built to demonstrate:
+This project demonstrates:
 
-system thinking in AI applications
+AI system thinking
 
-clean separation between planning, research, and writing
+Structured generation workflows
 
-production-style AI workflows
+Planning vs generation separation
 
-It is intended for portfolio, learning, and professional demonstration purposes.
+Production-style AI pipelines
+
+Suitable for:
+
+Portfolio projects
+
+AI workflow demonstrations
+
+Learning advanced LLM orchestration
+
+Professional showcase
